@@ -5,8 +5,8 @@ export function add(n:string):number{
         return 0; 
     }
 
-    
-
-    return Number(n);
+   return n.split(",").reduce((sum,number)=>
+    sum + Number(number)
+   ,0)
 
 }
