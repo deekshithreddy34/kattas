@@ -7,4 +7,8 @@ describe("string kattas",()=>{
     it("should return 0 if the string is empty",()=>{
         expect(add("")).toBe(0)
     })
+
+    it("should return the number if only a single number is passed",()=>{
+        expect(add("1")).toBe(1)
+    })
 })

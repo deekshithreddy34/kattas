@@ -1,10 +1,12 @@
 
-export function add(n:string){
+export function add(n:string):number{
 
     if(n==""){
         return 0; 
     }
 
-    return 0;
+    
+
+    return Number(n);
 
 }
